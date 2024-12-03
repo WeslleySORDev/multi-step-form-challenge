@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  body {
+    font-family: "Ubuntu", sans-serif;
+  }
+}
+
 body {
-  font-family: "Ubuntu", sans-serif;
+  @apply bg-neutral-magnolia
 }
