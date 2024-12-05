@@ -27,7 +27,7 @@ export function StepOne() {
       <h1 className="font-bold text-2xl text-primary-marine-blue">
         Personal info
       </h1>
-      <h2 className="text-xl text-neutral-cool-gray">
+      <h2 className="text-lg text-neutral-cool-gray">
         Please provide your name, email address, and phone number.
       </h2>
       <form className="flex flex-col gap-4" action="">

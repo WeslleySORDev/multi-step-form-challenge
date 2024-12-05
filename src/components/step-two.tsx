@@ -7,7 +7,7 @@ export function StepTwo() {
       <h1 className="font-bold text-2xl text-primary-marine-blue">
         Select your plan
       </h1>
-      <h2 className="text-xl text-neutral-cool-gray">
+      <h2 className="text-lg text-neutral-cool-gray">
         You have the option of monthly or yearly billing.
       </h2>
       <div className="flex flex-col gap-4">
@@ -34,6 +34,9 @@ export function StepTwo() {
         </div>
         <div className="w-full flex items-center justify-center rounded-lg gap-6 py-4 bg-neutral-alabaster">
             <span className="text-primary-marine-blue font-bold">Monthly</span>
+            <div className="w-[38px] h-[18px] rounded-lg bg-primary-marine-blue relative">
+              <div className="h-3 w-3 rounded-full bg-neutral-white absolute top-1/2 -translate-y-1/2 left-1"></div>
+            </div>
             <span className="text-neutral-cool-gray font-semibold">Yearly</span>
         </div>
       </div>
