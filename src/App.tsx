@@ -1,4 +1,5 @@
 import BGSidebarMobile from "./assets/images/bg-sidebar-mobile.svg";
+import { StepFour } from "./components/step-four";
 
 import { StepOne } from "./components/step-one";
 import { StepThree } from "./components/step-three";
@@ -24,7 +25,8 @@ function App() {
       <main className="flex w-full bg-neutral-white rounded py-8 px-6">
         {/* <StepOne /> */}
         {/* <StepTwo /> */}
-        <StepThree />
+        {/* <StepThree /> */}
+        <StepFour />
       </main>
       <img
         className="absolute top-0 left-0 right-0 -z-10 w-full sm:hidden"
