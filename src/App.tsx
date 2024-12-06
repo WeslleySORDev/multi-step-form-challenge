@@ -1,4 +1,5 @@
 import BGSidebarMobile from "./assets/images/bg-sidebar-mobile.svg";
+import { LastStep } from "./components/last-step";
 import { StepFour } from "./components/step-four";
 
 import { StepOne } from "./components/step-one";
@@ -26,7 +27,8 @@ function App() {
         {/* <StepOne /> */}
         {/* <StepTwo /> */}
         {/* <StepThree /> */}
-        <StepFour />
+        {/* <StepFour /> */}
+        <LastStep />
       </main>
       <img
         className="absolute top-0 left-0 right-0 -z-10 w-full sm:hidden"
